@@ -6,26 +6,40 @@ body {
       margin: 0%;}  
 nav {
       background: white;
-      padding:20px;
+      padding-left:20px;
+      padding-right:20px;
+      color: #226699;
 } 
-     
+p {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffffff;
+      font-size: large;
+}     
 h1 {
-              color: #226699;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffffff;
 }
 h2 {
-              color: rgb(34,102,153)
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(255, 255, 255);
+      margin-left: 10px;
+      margin-right:10px;
 }
 h3 {
-              color:rgb(34,102,153);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:rgb(255, 255, 255);
 }
 h4 {
-              color: rgb(34,102,153);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(34,102,153);
 }
 ul {
-              color:rgb(34,102,153);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:rgb(255, 255, 255);
 }
 ol {
-              color: rgb(34,102,153);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: rgb(255, 255, 255);
 }
 nav ul.navigation {
       display: inline-block;
@@ -34,6 +48,7 @@ nav ul.navigation li {
       display: inline-block;
       margin-right: 60px;
       font-size: larger;
+      color:#226699;
 }
 nav .logo {
       display: inline-block;
@@ -51,24 +66,52 @@ nav ul.navigation li.active {
       display: inline-block;
 }
 .first {
-      width: 40%;
-      height:  40%;
+      width: 900px;
+      height:  400px;
       background-color: #0093E9;
       background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
       margin: 40px;
       padding: 20px;
-      display: inline-block;
+      display: block;
+      text-align: center;
+      position: relative;
+}
+
+ section .first img.portrait {
+      margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .second {
-      width: 40%;
-      height:  40%;
-      background-color: #0093E9;
-      background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-      margin: 40px;
+      width: 500px;
+      height:  150px;
+      background-color: #FBAB7E;
+      background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+      margin: 25px;
       padding: 20px;
       display: inline-block;
-}
-section {
       text-align: center;
+      vertical-align: center;
+
+}
+section.box-container-1 {
+      display:flex;
+      justify-content: space-evenly;
+}
+section.box-container-2 {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 15px;
+      margin-right: 15px;
+}
+section.box-container-2 ul {
+      list-style:none;
+      text-align: center;
+      padding:0px;
+      font-size: large;
 }
